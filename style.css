@@ -16,6 +16,7 @@ h1{
    
 section{
     display:flex ;
+    justify-content: center;
 }
 .half{
       width: 50%;
@@ -46,8 +47,29 @@ section{
     margin-top: 50px;
     margin-left: 5%;
     margin-right: 5%;
-   
-   overflow: hidden;}
-.second-banner{
-          padding-top: 1%;      
+     overflow: hidden;}
+
+   }
+
+ 
+.second-section{
+         width: 50%;
+         padding-left: 5%;
+       
+  
+         
 }
+.second-section img{
+width: 80%;
+margin-left: 5%;
+}
+.div-second-section{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+    width: 30%;
+}
+.background-image{
+    background-image: url(./Image/shapes/7.png);
+}
+
