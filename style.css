@@ -6,7 +6,7 @@ body{
     font-family: 'Anton', sans-serif;
     font-family: 'Roboto', sans-serif;
 }
-#skip{
+.skip{
     color: #FFA500;
 }
 h1{
@@ -83,12 +83,47 @@ margin-left: 5%;
 }    
  
 
-.four-section{
-    display: flex;
-    width: 100%;
+ 
+ .maincontainer {
+
+display: flex;
+max-width: 95%;
+padding-top: 3%;
+padding-left: 7%;
+padding-right: 5%;
+border-radius: 3%;
+
 }
- .four-section-div{
-    width: 100%;
- }
- 
- 
+ .subcontainerp{
+    flex: 1px;
+   margin: 3px;
+   padding: 30px;
+   
+    }
+
+  .subcontainerb{
+
+    flex: 1px; 
+    margin: 3px;
+    padding: 30px;
+  }
+ .subcontainerc{
+
+    flex: 1px;
+    margin: 3px;
+    padding: 30px;
+}
+.foodimage {
+   width: 95%;
+   padding-bottom: 1%;
+}
+.footer{
+    padding-top: 3%;
+    text-align: center;
+    background: #000000;
+    height: auto;
+   
+}
+.orange{
+    color: orangered;
+}
