@@ -73,3 +73,11 @@ margin-left: 5%;
     background-image: url(./Image/shapes/Frame\ 58.jpg);
 }
 
+.third-section{
+           text-align: center;
+           justify-content: center;
+           width: 48%;
+           padding-left: 30%;
+           padding-top: 3%;
+
+}          
